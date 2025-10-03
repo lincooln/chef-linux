@@ -1,0 +1,26 @@
+# Книга рецептов для: ALTLINUX
+# Создано: 2025-10-03 14:17:56
+# Автор: user
+
+[mc]
+name = mc
+ingredients = mc
+cleanups =
+spices = После установки:
+
+
+[sudo]
+name = Настройка sudo
+ingredients = sudo
+cleanups =
+spices = Добавьте пользователя в группу sudo
+         sudo usermod -a -G sudo username
+
+# Шаблон рецепта:
+# [уникальный-идентификатор]
+# name = Человеко-читаемое название
+# ingredients = пакет1 пакет2
+# cleanups = пакет-для-удаления
+# spices = Многострочные
+#          инструкции для
+#          пользователя
